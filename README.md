@@ -9,7 +9,7 @@ Grand Circus' ITC workshop introduces participants to the basic concepts of prog
 
 * Open [repl.it](https://repl.it/).  On the landing page, scroll all the way down to the bottom of the page and click on "JavaScript" in the list of programming languages.  This will open a JavaScript programming environment as described in the [ITC setup section](https://www.grandcircus.co/slides/intro-coding/index.html#/2).
 * Copy the code from the [battleScript.js](https://github.com/slothwerks-studio/javascript-battle/blob/master/battleScript.js) file and paste it into the JavaScript panel in repl.it.
-* Click on the "run" button near the top of the panel to see the results.
+* Click on the "run" button near the top of the panel to see the results in the console.
 
 ### How are you adding strings?  And for that matter... numbers _and_ strings?
 
