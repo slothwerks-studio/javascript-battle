@@ -1,20 +1,14 @@
-/* 
-  This is a game that uses nothing but the 
-  concepts covered in the Grand Circus Intro to Code
-  workshop.
-  https://www.grandcircus.co/slides/intro-coding/index.html#/
-
-  It is written in JavaScript and features a protaganist
-  named Sloth.  He needs to defeat an enemy in battle,
-  which is played out using a for loop.
-
-  One may name the enemy anything they wish, as well as the enemy's weapon.  Sloth has a choice of weapons, which do varying damage; this weapon is selected in the code prior to the battle loop.
-
-  Results of the battle are printed to the console using console.log.
-*/
-
-// Variables
-var enemyName = "Zorg, the Imposter";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BattleScript Game</title>
+</head>
+<body>
+   <script>
+       var enemyName = "Zorg, the Imposter";
 var slothHealth = 20;
 var enemyHealth = 20;
 var slothWeapon; // Possible options:  "axe", "boomerang", "fist"
@@ -29,7 +23,6 @@ var dashLine = "------------------------------"
 // Introduction
 console.log(dashLine);
 console.log("Welcome to Sloth's Game!");
-window.prompt("Welcome to Sloth's Game!");
 console.log(dashLine);
 console.log("Sloth needs to defeat the evil " + enemyName + "!");
 console.log("The two will fight to the death.");
@@ -79,3 +72,6 @@ if (slothHealth > 0) {
   console.log("An error occurred; please contact your administrator for assistance.");
   console.log(dashLine);
 }
+    </script> 
+</body>
+</html>
